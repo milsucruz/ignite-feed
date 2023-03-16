@@ -18,18 +18,6 @@
   margin-top: calc(0px - 1.5rem - 6px);
 }
 
-/* O tamanho da img do avatar fica comprimida devido ao padding e as bordas,
-para resolver usa-se "box-sizing: initial;" (com width e no height 3rem em cada um)
-ou o calc(3rem + a quantidade de borda -> 4 + 4 + 2 + 2 = 12) no width e no height*/
-.avatar {
-  width: calc(3rem + 12px);
-  height: calc(3rem + 12px);
-  border-radius: 8px;
-  border: 4px solid var(--gray-800);
-
-  outline: 2px solid var(--green-500);
-}
-
 .profile strong {
   margin-top: 1rem;
   color: var(--gray-100);
