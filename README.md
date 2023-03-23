@@ -19,7 +19,7 @@
 
 > ## Como executar ⚙️
 
-> ### No terminal execute:
+> ### No terminal, execute:
 >
 >> ```npm install```
 >
